@@ -22,4 +22,9 @@ public class ActionForward {
 		this.redirect = redirect;
 	}
 	
+	public ActionForward(String path) {
+		super();
+		this.path = path;
+	}
+	
 }
